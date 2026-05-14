@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300F87032FB60ABB00A41BC2 /* AlamofireDynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 376BA7182FB5F11A00BA141B /* AlamofireDynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		305A644B2FB3AE4400067722 /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 305A64302FB3AE4400067722 /* privacy_policy.md */; };
 		305A644C2FB3AE4400067722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305A64412FB3AE4400067722 /* Assets.xcassets */; };
 		305A644E2FB3AE4400067722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305A64452FB3AE4400067722 /* LaunchScreen.storyboard */; };
@@ -49,7 +50,29 @@
 		305A64732FB3AE4400067722 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A64422FB3AE4400067722 /* ContentView.swift */; };
 		305A64742FB3AE4400067722 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A64482FB3AE4400067722 /* SceneDelegate.swift */; };
 		305A64752FB3AE4400067722 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A64492FB3AE4400067722 /* ViewController.swift */; };
+		376BA7192FB5F11A00BA141B /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 376BA7182FB5F11A00BA141B /* AlamofireDynamic */; };
+		376BA71C2FB5F12A00BA141B /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 376BA71B2FB5F12A00BA141B /* AppsFlyerLib-Static */; };
+		376BA7202FB5F21100BA141B /* NoviraEchoUpdateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376BA71F2FB5F20F00BA141B /* NoviraEchoUpdateManager.swift */; };
+		376BA7222FB5F22000BA141B /* NoviraEchoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376BA7212FB5F21B00BA141B /* NoviraEchoModels.swift */; };
+		376BA7242FB5F22D00BA141B /* NoviraEchoSevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376BA7232FB5F22300BA141B /* NoviraEchoSevices.swift */; };
+		376BA7262FB5F23600BA141B /* NoviraEchoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376BA7252FB5F23100BA141B /* NoviraEchoView.swift */; };
+		376BA7282FB5F2CA00BA141B /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376BA7272FB5F2C800BA141B /* Loader.swift */; };
+		376BA72A2FB5F30D00BA141B /* NoviraEchoMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376BA7292FB5F30100BA141B /* NoviraEchoMainView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		300F87042FB60ABB00A41BC2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				300F87032FB60ABB00A41BC2 /* AlamofireDynamic in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1CF2B7761D3E01B9D8C107C4 /* Pods_173NoviraEchoJournal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_173NoviraEchoJournal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +120,13 @@
 		305A64462FB3AE4400067722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		305A64482FB3AE4400067722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		305A64492FB3AE4400067722 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		376BA71D2FB5F14B00BA141B /* 173NoviraEchoJournal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 173NoviraEchoJournal.entitlements; sourceTree = "<group>"; };
+		376BA71F2FB5F20F00BA141B /* NoviraEchoUpdateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoviraEchoUpdateManager.swift; sourceTree = "<group>"; };
+		376BA7212FB5F21B00BA141B /* NoviraEchoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoviraEchoModels.swift; sourceTree = "<group>"; };
+		376BA7232FB5F22300BA141B /* NoviraEchoSevices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoviraEchoSevices.swift; sourceTree = "<group>"; };
+		376BA7252FB5F23100BA141B /* NoviraEchoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoviraEchoView.swift; sourceTree = "<group>"; };
+		376BA7272FB5F2C800BA141B /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		376BA7292FB5F30100BA141B /* NoviraEchoMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoviraEchoMainView.swift; sourceTree = "<group>"; };
 		DF84A7F73E75100457DE3206 /* Pods-173NoviraEchoJournal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-173NoviraEchoJournal.debug.xcconfig"; path = "Target Support Files/Pods-173NoviraEchoJournal/Pods-173NoviraEchoJournal.debug.xcconfig"; sourceTree = "<group>"; };
 		E0B60D28D24A321E4D2CE090 /* Pods-173NoviraEchoJournal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-173NoviraEchoJournal.release.xcconfig"; path = "Target Support Files/Pods-173NoviraEchoJournal/Pods-173NoviraEchoJournal.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +136,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376BA7192FB5F11A00BA141B /* AlamofireDynamic in Frameworks */,
+				376BA71C2FB5F12A00BA141B /* AppsFlyerLib-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +165,7 @@
 		305A640E2FB3AE4400067722 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				376BA7292FB5F30100BA141B /* NoviraEchoMainView.swift */,
 				305A640A2FB3AE4400067722 /* AppColors.swift */,
 				305A640B2FB3AE4400067722 /* AppExternalLink.swift */,
 				305A640C2FB3AE4400067722 /* AppStorage.swift */,
@@ -144,6 +177,7 @@
 		305A64102FB3AE4400067722 /* Achievements */ = {
 			isa = PBXGroup;
 			children = (
+				376BA7272FB5F2C800BA141B /* Loader.swift */,
 				305A640F2FB3AE4400067722 /* AchievementsView.swift */,
 			);
 			path = Achievements;
@@ -226,6 +260,7 @@
 		305A642B2FB3AE4400067722 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				376BA71E2FB5F1FE00BA141B /* ServiceLogs */,
 				305A64102FB3AE4400067722 /* Achievements */,
 				305A64162FB3AE4400067722 /* History */,
 				305A64182FB3AE4400067722 /* Home */,
@@ -315,6 +350,7 @@
 		305A644A2FB3AE4400067722 /* 173NoviraEchoJournal */ = {
 			isa = PBXGroup;
 			children = (
+				376BA71D2FB5F14B00BA141B /* 173NoviraEchoJournal.entitlements */,
 				305A640E2FB3AE4400067722 /* Core */,
 				305A642B2FB3AE4400067722 /* Features */,
 				305A642F2FB3AE4400067722 /* Models */,
@@ -330,6 +366,17 @@
 				305A64492FB3AE4400067722 /* ViewController.swift */,
 			);
 			path = 173NoviraEchoJournal;
+			sourceTree = "<group>";
+		};
+		376BA71E2FB5F1FE00BA141B /* ServiceLogs */ = {
+			isa = PBXGroup;
+			children = (
+				376BA7252FB5F23100BA141B /* NoviraEchoView.swift */,
+				376BA7232FB5F22300BA141B /* NoviraEchoSevices.swift */,
+				376BA7212FB5F21B00BA141B /* NoviraEchoModels.swift */,
+				376BA71F2FB5F20F00BA141B /* NoviraEchoUpdateManager.swift */,
+			);
+			path = ServiceLogs;
 			sourceTree = "<group>";
 		};
 		72D340438D1F7C98287EBCFE /* Frameworks */ = {
@@ -360,6 +407,7 @@
 				305A5F762FB377F000067722 /* Sources */,
 				305A5F772FB377F000067722 /* Frameworks */,
 				305A5F782FB377F000067722 /* Resources */,
+				300F87042FB60ABB00A41BC2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -394,6 +442,10 @@
 				Base,
 			);
 			mainGroup = 305A5F712FB377F000067722;
+			packageReferences = (
+				376BA7172FB5F11A00BA141B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				376BA71A2FB5F12A00BA141B /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
 			productRefGroup = 305A5F7B2FB377F000067722 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -458,13 +510,16 @@
 				305A64582FB3AE4400067722 /* HistoryJournalCell.swift in Sources */,
 				305A64592FB3AE4400067722 /* WeatherEntryDetailView.swift in Sources */,
 				305A645A2FB3AE4400067722 /* HomeView.swift in Sources */,
+				376BA7242FB5F22D00BA141B /* NoviraEchoSevices.swift in Sources */,
 				305A645B2FB3AE4400067722 /* JournalHubView.swift in Sources */,
 				305A645C2FB3AE4400067722 /* AppTab.swift in Sources */,
 				305A645D2FB3AE4400067722 /* MainTabView.swift in Sources */,
 				305A645E2FB3AE4400067722 /* TabBarHeightPreferenceKey.swift in Sources */,
 				305A645F2FB3AE4400067722 /* OnboardingView.swift in Sources */,
 				305A64602FB3AE4400067722 /* PrivacyPolicyView.swift in Sources */,
+				376BA7202FB5F21100BA141B /* NoviraEchoUpdateManager.swift in Sources */,
 				305A64612FB3AE4400067722 /* SettingsView.swift in Sources */,
+				376BA7222FB5F22000BA141B /* NoviraEchoModels.swift in Sources */,
 				305A64622FB3AE4400067722 /* Feature3View.swift in Sources */,
 				305A64632FB3AE4400067722 /* Feature3ViewModel.swift in Sources */,
 				305A64642FB3AE4400067722 /* TrendCharts.swift in Sources */,
@@ -473,6 +528,7 @@
 				305A64672FB3AE4400067722 /* AchievementDefinition.swift in Sources */,
 				305A64682FB3AE4400067722 /* DateRangeFilter.swift in Sources */,
 				305A64692FB3AE4400067722 /* WeatherEntry.swift in Sources */,
+				376BA72A2FB5F30D00BA141B /* NoviraEchoMainView.swift in Sources */,
 				305A646A2FB3AE4400067722 /* LayeredAppBackground.swift in Sources */,
 				305A646B2FB3AE4400067722 /* AchievementBannerStack.swift in Sources */,
 				305A646C2FB3AE4400067722 /* SuccessFeedbackOverlay.swift in Sources */,
@@ -482,9 +538,11 @@
 				305A64702FB3AE4400067722 /* AppElevatedChrome.swift in Sources */,
 				305A64712FB3AE4400067722 /* WeatherConditionIcon.swift in Sources */,
 				305A64722FB3AE4400067722 /* AppDelegate.swift in Sources */,
+				376BA7262FB5F23600BA141B /* NoviraEchoView.swift in Sources */,
 				305A64732FB3AE4400067722 /* ContentView.swift in Sources */,
 				305A64742FB3AE4400067722 /* SceneDelegate.swift in Sources */,
 				305A64752FB3AE4400067722 /* ViewController.swift in Sources */,
+				376BA7282FB5F2CA00BA141B /* Loader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +576,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 173NoviraEchoJournal/173NoviraEchoJournal.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -536,7 +595,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mab.n0v1r63ch0j05r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -561,6 +620,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 173NoviraEchoJournal/173NoviraEchoJournal.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -579,7 +639,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mab.n0v1r63ch0j05r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -739,6 +799,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		376BA7172FB5F11A00BA141B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.12.0;
+			};
+		};
+		376BA71A2FB5F12A00BA141B /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		376BA7182FB5F11A00BA141B /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 376BA7172FB5F11A00BA141B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		376BA71B2FB5F12A00BA141B /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 376BA71A2FB5F12A00BA141B /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 305A5F722FB377F000067722 /* Project object */;
 }

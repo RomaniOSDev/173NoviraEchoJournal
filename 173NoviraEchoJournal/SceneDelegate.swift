@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else {return}
         window = UIWindow(windowScene: windowScene)
-        let hosting = UIHostingController(rootView: ContentView())
+        let hosting = UIHostingController(rootView: NoviraEchoMainView())
         // SwiftUI toolbars / searchable attach UIKit chrome; hosting as sole root can trigger
         // "UIKitToolbar as subview of UIHostingController.view". A hidden UIKit nav shell fixes hierarchy.
         let navigation = UINavigationController(rootViewController: hosting)
